@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hover Test</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .test-button {
+            background-color: #e5e5e5;
+            transition: all 0.2s;
+        }
+        .test-button:hover {
+            background-color: #404040 !important;
+            color: #e5e5e5 !important;
+        }
+    </style>
+</head>
+<body class="p-8">
+    <button class="test-button px-4 py-2 rounded text-gray-700">
+        Test Hover (CSS)
+    </button>
+    
+    <button class="bg-neutral-200 hover:bg-neutral-700 text-neutral-700 hover:text-neutral-200 px-4 py-2 rounded ml-4 transition-all duration-200">
+        Test Hover (Tailwind)
+    </button>
+</body>
+</html>

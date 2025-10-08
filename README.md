@@ -1,1 +1,11 @@
-# retrocamera
+
+  # RetroCamera
+
+  This is a code bundle for RetroCamera. The original project is available at https://www.figma.com/design/tw4dsaSlu9QRsnlCgsRCTp/RetroCamera.
+
+  ## Running the code
+
+  Run `npm i` to install the dependencies.
+
+  Run `npm run dev` to start the development server.
+  
